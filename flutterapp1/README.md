@@ -1,16 +1,22 @@
-# flutterapp1
+Cette application afficheé une interface propre et organisée en utilisant des Widgets (les briques de construction de Flutter) imbriqués les uns dans les autres.
 
-A new Flutter project.
+<img width="1809" height="1021" alt="Screenshot (109)" src="https://github.com/user-attachments/assets/c9532ab4-0b9a-482b-b397-6e489fe4fdf9" />
 
-## Getting Started
+* Explication des composants :
+  
+void main() : C'est le point d'entrée. Comme le bouton "Start" d'une machine, c'est ici que tout commence.
 
-This project is a starting point for a Flutter application.
+MaterialApp : C'est le "cadre" de l'application. Elle configure le design (Material Design) et permet de gérer la navigation plus tard.
 
-A few resources to get you started if this is your first Flutter project:
+Scaffold : C'est la "structure" de la page. Imaginez un squelette qui offre des emplacements prêts à l'emploi pour une barre de titre, un corps de page et des boutons.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+AppBar : La barre d'outils tout en haut qui contient le titre "Ma première application".
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Center : Un widget invisible qui sert uniquement à placer son contenu (le texte) pile au milieu de l'espace disponible.
+
+Text : Affiche simplement les caractères "Bonjour Flutter !" avec une taille de police de 24.
+
+* Capture de l'app :
+
+  <img width="1920" height="1017" alt="Screenshot (95)" src="https://github.com/user-attachments/assets/62e51e21-ff49-4d05-9e1f-ec7cccbb9bc9" />
+
